@@ -22,7 +22,7 @@ struct HomeView: View {
                 .font(.title)
                 .fontWeight(.heavy)
                 .foregroundColor(.black)
-            Text("\(getWeight()) Kg")
+            Text("\(getWeight()) Kg") 
                 .font(.system(size: 38, weight: .heavy))
                 .foregroundColor(Color("purple1"))
                 .padding(.bottom,20)
@@ -39,7 +39,7 @@ struct HomeView: View {
                                 .fill(Color.gray)
                                 .frame(width: 1, height: 30)
                                 //                        each Picker Tick wil have 20 width
-                                Text("\(30 + (index * 10))")
+                            Text("\(30 + (index * 10 ))")
                                     .font(.caption2)
                                     .foregroundColor(.gray)
                         }
